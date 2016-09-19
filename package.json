@@ -1,0 +1,20 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "Sample website for Web Development with Node and Express",
+  "main": "meadowlark.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express3-handlebars": "^0.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uzeuze/web-development-with-node-and-express.git"
+  },
+  "author": "Egemen Can Uze",
+  "license": "GPL, MIT"
+}
