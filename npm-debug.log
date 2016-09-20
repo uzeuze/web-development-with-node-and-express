@@ -1,0 +1,216 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt-exec' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /home/egemen/workspace/Node/projects/meadowlark/package.json
+5 warn package.json meadowlark@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/chai/package.json
+7 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/express/package.json
+8 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/express3-handlebars/package.json
+9 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt/package.json
+10 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-cafe-mocha/package.json
+11 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-contrib-jshint/package.json
+12 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/mocha/package.json
+13 verbose installManyTop reading scoped package data from /home/egemen/workspace/Node/projects/meadowlark/node_modules/zombie/package.json
+14 info package.json express3-handlebars@0.5.2 No license field.
+15 info package.json grunt-cafe-mocha@0.1.13 No license field.
+16 verbose readDependencies loading dependencies from /home/egemen/workspace/Node/projects/meadowlark/package.json
+17 silly cache add args [ 'grunt-exec', null ]
+18 verbose cache add spec grunt-exec
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'grunt-exec',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'grunt-exec',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: 'latest',
+19 silly cache add   type: 'tag' }
+20 silly addNamed grunt-exec@latest
+21 verbose addNamed "latest" is being treated as a dist-tag for grunt-exec
+22 info addNameTag [ 'grunt-exec', 'latest' ]
+23 silly mapToRegistry name grunt-exec
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'grunt-exec',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'grunt-exec',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/grunt-exec
+28 verbose addNameTag registry:https://registry.npmjs.org/grunt-exec not in flight; fetching
+29 verbose request uri https://registry.npmjs.org/grunt-exec
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 9:59:17 AM
+32 verbose request id d075aa0fa906891a
+33 http request GET https://registry.npmjs.org/grunt-exec
+34 http 200 https://registry.npmjs.org/grunt-exec
+35 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+35 verbose headers   etag: '"879LZPIXFEPSRT8C6TAX5N6N1"',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   'content-encoding': 'gzip',
+35 verbose headers   'cache-control': 'max-age=300',
+35 verbose headers   'content-length': '5499',
+35 verbose headers   'accept-ranges': 'bytes',
+35 verbose headers   date: 'Tue, 20 Sep 2016 06:59:20 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   age: '0',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-lcy1131-LCY',
+35 verbose headers   'x-cache': 'HIT',
+35 verbose headers   'x-cache-hits': '1',
+35 verbose headers   'x-timer': 'S1474354760.234014,VS0,VE87',
+35 verbose headers   vary: 'Accept-Encoding' }
+36 silly get cb [ 200,
+36 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+36 silly get     etag: '"879LZPIXFEPSRT8C6TAX5N6N1"',
+36 silly get     'content-type': 'application/json',
+36 silly get     'content-encoding': 'gzip',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     'content-length': '5499',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Tue, 20 Sep 2016 06:59:20 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     age: '0',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-lcy1131-LCY',
+36 silly get     'x-cache': 'HIT',
+36 silly get     'x-cache-hits': '1',
+36 silly get     'x-timer': 'S1474354760.234014,VS0,VE87',
+36 silly get     vary: 'Accept-Encoding' } ]
+37 verbose get saving grunt-exec to /home/egemen/.npm/registry.npmjs.org/grunt-exec/.cache.json
+38 verbose correctMkdir /home/egemen/.npm correctMkdir not in flight; initializing
+39 silly addNameTag next cb for grunt-exec with tag latest
+40 silly addNamed grunt-exec@1.0.1
+41 verbose addNamed "1.0.1" is a plain semver version for grunt-exec
+42 silly mapToRegistry name grunt-exec
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'grunt-exec',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   name: 'grunt-exec',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/grunt-exec
+47 verbose addRemoteTarball https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.1.tgz not in flight; adding
+48 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.1.tgz',
+48 verbose addRemoteTarball   'e5d53a39c5f346901305edee5c87db0f2af999c4' ]
+49 info retry fetch attempt 1 at 9:59:18 AM
+50 info attempt registry request try #1 at 9:59:18 AM
+51 http fetch GET https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.1.tgz
+52 http fetch 200 https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.1.tgz
+53 silly fetchAndShaCheck shasum e5d53a39c5f346901305edee5c87db0f2af999c4
+54 verbose addTmpTarball /tmp/npm-4057-535f0eb7/registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.1.tgz not in flight; adding
+55 verbose addTmpTarball already have metadata; skipping unpack for grunt-exec@1.0.1
+56 verbose correctMkdir /home/egemen/.npm correctMkdir not in flight; initializing
+57 silly cache afterAdd grunt-exec@1.0.1
+58 verbose afterAdd /home/egemen/.npm/grunt-exec/1.0.1/package/package.json not in flight; writing
+59 verbose correctMkdir /home/egemen/.npm correctMkdir not in flight; initializing
+60 verbose afterAdd /home/egemen/.npm/grunt-exec/1.0.1/package/package.json written
+61 silly install resolved [ { name: 'grunt-exec',
+61 silly install resolved     description: 'Grunt task for executing shell commands.',
+61 silly install resolved     version: '1.0.1',
+61 silly install resolved     homepage: 'https://github.com/jharding/grunt-exec',
+61 silly install resolved     author: { name: 'Jake Harding', email: 'jacob.s.harding@gmail.com' },
+61 silly install resolved     contributors: [ [Object] ],
+61 silly install resolved     repository: { type: 'git', url: 'git://github.com/jharding/grunt-exec.git' },
+61 silly install resolved     bugs: { url: 'https://github.com/jharding/grunt-exec/issues' },
+61 silly install resolved     license: 'MIT',
+61 silly install resolved     main: 'Gruntfile.js',
+61 silly install resolved     engines: { node: '>=0.8.0' },
+61 silly install resolved     scripts: { test: 'node test/test.js' },
+61 silly install resolved     peerDependencies: { grunt: '>=0.4' },
+61 silly install resolved     devDependencies: { grunt: '^1.0.0', 'grunt-contrib-jshint': '^1.0.0' },
+61 silly install resolved     keywords: [ 'grunt', 'gruntplugin', 'shell', 'exec', 'execute' ],
+61 silly install resolved     gitHead: '196d7ad114a1e86029500146d94e783b8010754c',
+61 silly install resolved     _id: 'grunt-exec@1.0.1',
+61 silly install resolved     _shasum: 'e5d53a39c5f346901305edee5c87db0f2af999c4',
+61 silly install resolved     _from: 'grunt-exec@latest',
+61 silly install resolved     _npmVersion: '3.10.7',
+61 silly install resolved     _nodeVersion: '6.5.0',
+61 silly install resolved     _npmUser: { name: 'gwicksted', email: 'graeme.wicksted@gmail.com' },
+61 silly install resolved     dist:
+61 silly install resolved      { shasum: 'e5d53a39c5f346901305edee5c87db0f2af999c4',
+61 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.1.tgz' },
+61 silly install resolved     maintainers: [ [Object], [Object] ],
+61 silly install resolved     _npmOperationalInternal:
+61 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+61 silly install resolved        tmp: 'tmp/grunt-exec-1.0.1.tgz_1474213502535_0.30625477177090943' },
+61 silly install resolved     directories: {},
+61 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.1.tgz' } ]
+62 info install grunt-exec@1.0.1 into /home/egemen/workspace/Node/projects/meadowlark
+63 info installOne grunt-exec@1.0.1
+64 verbose installOne of grunt-exec to /home/egemen/workspace/Node/projects/meadowlark not in flight; installing
+65 verbose correctMkdir /home/egemen/.npm/_locks correctMkdir not in flight; initializing
+66 verbose lock using /home/egemen/.npm/_locks/grunt-exec-0718eb1c61972c81.lock for /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+67 silly install write writing grunt-exec 1.0.1 to /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+68 verbose unbuild node_modules/grunt-exec
+69 silly gentlyRm /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec is being purged from base /home/egemen/workspace/Node/projects/meadowlark
+70 verbose gentlyRm don't care about contents; nuking /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+71 verbose tar unpack /home/egemen/.npm/grunt-exec/1.0.1/package.tgz
+72 verbose tar unpacking to /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+73 silly gentlyRm /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec is being purged
+74 verbose gentlyRm don't care about contents; nuking /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+75 silly gunzTarPerm modes [ '775', '664' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+78 silly gunzTarPerm extractEntry .npmignore
+79 silly gunzTarPerm modified mode [ '.npmignore', 438, 436 ]
+80 silly gunzTarPerm extractEntry README.md
+81 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+82 silly gunzTarPerm extractEntry Gruntfile.js
+83 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 436 ]
+84 silly gunzTarPerm extractEntry .travis.yml
+85 silly gunzTarPerm modified mode [ '.travis.yml', 438, 436 ]
+86 silly gunzTarPerm extractEntry LICENSE-MIT
+87 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 436 ]
+88 silly gunzTarPerm extractEntry tasks/exec.js
+89 silly gunzTarPerm modified mode [ 'tasks/exec.js', 438, 436 ]
+90 silly gunzTarPerm extractEntry test/Gruntfile.js
+91 silly gunzTarPerm modified mode [ 'test/Gruntfile.js', 438, 436 ]
+92 silly gunzTarPerm extractEntry test/test.js
+93 silly gunzTarPerm modified mode [ 'test/test.js', 438, 436 ]
+94 verbose write writing to /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec/package.json
+95 info preinstall grunt-exec@1.0.1
+96 verbose readDependencies loading dependencies from /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec/package.json
+97 verbose readDependencies loading dependencies from /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec/package.json
+98 silly install resolved []
+99 verbose about to build /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+100 info build /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+101 info linkStuff grunt-exec@1.0.1
+102 silly linkStuff grunt-exec@1.0.1 has /home/egemen/workspace/Node/projects/meadowlark/node_modules as its parent node_modules
+103 verbose linkBins grunt-exec@1.0.1
+104 verbose linkMans grunt-exec@1.0.1
+105 verbose rebuildBundles grunt-exec@1.0.1
+106 info install grunt-exec@1.0.1
+107 info postinstall grunt-exec@1.0.1
+108 verbose unlock done using /home/egemen/.npm/_locks/grunt-exec-0718eb1c61972c81.lock for /home/egemen/workspace/Node/projects/meadowlark/node_modules/grunt-exec
+109 verbose validateInstall loading /home/egemen/workspace/Node/projects/meadowlark/package.json for validation
+110 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+110 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:125:32
+110 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:268:7
+110 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+110 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+110 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+110 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+110 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+110 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+110 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+110 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+111 verbose cwd /home/egemen/workspace/Node/projects/meadowlark
+112 error Linux 3.19.0-25-generic
+113 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save-dev" "grunt-exec"
+114 error node v4.5.0
+115 error npm  v2.15.9
+116 error code EPEERINVALID
+117 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+117 error peerinvalid Peer grunt-exec@1.0.1 wants grunt@>=0.4
+117 error peerinvalid Peer grunt-cafe-mocha@0.1.13 wants grunt@~0.4.1
+117 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+118 verbose exit [ 1, true ]
